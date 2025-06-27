@@ -9,15 +9,15 @@ Agriguard Rover is an AI-powered mobile agricultural rover designed to detect pa
 
 ## 🚀 Features
 
-- ✅ Detects common **paddy leaf diseases** with up to **95% accuracy**.
-- 🔍 Uses **image preprocessing with OpenCV** for optimal model input.
+- ✅ Detects common **paddy leaf diseases** with up to **95% accuracy**
+- 🔍 Uses **image preprocessing with OpenCV** for optimal model input
 - 🧠 Experimented with multiple deep learning models:
   - Custom CNN
   - ResNet50
   - Xception
   - ✅ Final Model: **DenseNet121**
-- 📸 Real-time deployment-ready using TensorFlow.
-- 🛠️ Can be integrated with rover hardware for autonomous field inspection.
+- 📸 Real-time deployment-ready using TensorFlow
+- 🛠️ Can be integrated with rover hardware for autonomous field inspection
 
 ---
 
@@ -32,14 +32,12 @@ Designed for agricultural fields where farmers can use the rover to automaticall
 
 ## 🗂️ Project Structure
 
-Agriguard/
-├── Agriguard.ipynb # Jupyter notebook containing model training and evaluation
-├── dataset/ # Directory containing paddy leaf images (training & testing)
-├── models/ # Saved model files (e.g., DenseNet121.h5)
-├── utils/ # Preprocessing and helper functions
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
+- `Agriguard.ipynb`: Jupyter notebook containing model training and evaluation
+- `dataset/`: Directory containing paddy leaf images (training & testing)
+- `models/`: Saved model files (e.g., DenseNet121.h5)
+- `utils/`: Preprocessing and helper functions
+- `requirements.txt`: Python dependencies
+- `README.md`: Project documentation
 
 ---
 
@@ -58,41 +56,44 @@ Agriguard/
 
 ## 🔧 Installation & Setup
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/agriguard-rover.git
-   cd agriguard-rover
+1. Clone this repository:  
+   `git clone https://github.com/yourusername/agriguard-rover.git`
 
-   
-2. Install required packages:
-   
-pip install -r requirements.txt
+2. Navigate to the project directory:  
+   `cd agriguard-rover`
 
-3. Run the notebook:
+3. Install the required packages:  
+   `pip install -r requirements.txt`
 
-jupyter notebook Agriguard.ipynb
-🖼️ Sample Prediction
+4. Launch the Jupyter notebook:  
+   `jupyter notebook Agriguard.ipynb`
 
-Input: Paddy leaf image
-Output: Disease detected – Bacterial Blight
-Confidence: 95.3%
+---
 
-📌 Future Enhancements
+## 🖼️ Sample Prediction
 
-Integrate real-time inference with rover hardware.
-Expand to detect nutrient deficiencies.
-Add Bluetooth/mobile app interface for user-friendly alerts.
-Enable multi-language support for farmers.
+**Input:** Paddy leaf image  
+**Output:** Disease detected – Bacterial Blight  
+**Confidence:** 95.3%
 
-👩‍💻 Author
+---
 
-Meenakshi S Menon
+## 📌 Future Enhancements
+
+- Integrate real-time inference with rover hardware
+- Expand to detect **nutrient deficiencies**
+- Add **Bluetooth/mobile app** interface for user-friendly alerts
+- Enable multi-language support for farmers
+
+---
+
+## 👩‍💻 Author
+
+*Meenakshi S Menon**  
 CSE (AIML), VIT Bhopal University
 
-📄 License
+---
 
-This project is open-source and available under the MIT License.
+## 📄 License
 
-
-
-
+This project is open-source and available under the [MIT License](LICENSE)
