@@ -57,15 +57,16 @@ Designed for agricultural fields where farmers can use the rover to automaticall
 ## 🔧 Installation & Setup
 
 1. Clone this repository:  
-   `git clone https://github.com/yourusername/agriguard-rover.git`
+   `git clone
+   https://github.com/Meenakshi-Menon/Agriguard-Rover`
 
-2. Navigate to the project directory:  
+3. Navigate to the project directory:  
    `cd agriguard-rover`
 
-3. Install the required packages:  
+4. Install the required packages:  
    `pip install -r requirements.txt`
 
-4. Launch the Jupyter notebook:  
+5. Launch the Jupyter notebook:  
    `jupyter notebook Agriguard.ipynb`
 
 ---
